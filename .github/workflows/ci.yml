@@ -28,5 +28,5 @@ jobs:
       - name: Build
         run: dotnet build --configuration Release --no-restore
 
-      - name: Run tests
-        run: dotnet test --configuration Release --no-build
+      - name: Run tests with coverage
+        run: dotnet test --configuration Release --no-build --collect:"XPlat Code Coverage"

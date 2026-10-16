@@ -45,10 +45,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-
-    environment:
-      name: production
-
+    
     permissions:
       id-token: write
       contents: read

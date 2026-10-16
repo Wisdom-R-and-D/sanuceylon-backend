@@ -4,6 +4,10 @@
     <File Path=".gitignore" />
     <File Path="README.md" />
   </Folder>
+  <Folder Name="/Solution Items/Workflows/">
+    <File Path=".github/workflows/ci.yml" />
+    <File Path=".github/workflows/main_sanuceylon-backend.yml" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/SanuCeylon.Api/SanuCeylon.Api.csproj" />
     <Project Path="src/SanuCeylon.Application/SanuCeylon.Application.csproj" />

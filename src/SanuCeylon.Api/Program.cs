@@ -16,7 +16,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 
-    // Swagger Documentation
+    // Swagger documentation
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint(

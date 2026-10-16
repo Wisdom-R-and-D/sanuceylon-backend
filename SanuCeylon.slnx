@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="src/SanuCeylon.Api/SanuCeylon.Api.csproj" />
+  <Project Path="src/SanuCeylon.Application/SanuCeylon.Application.csproj" />
+  <Project Path="src/SanuCeylon.Domain/SanuCeylon.Domain.csproj" />
+  <Project Path="src/SanuCeylon.Infrastructure/SanuCeylon.Infrastructure.csproj" />
+  <Project Path="tests/SanuCeylon.Api.IntegrationTests/SanuCeylon.Api.IntegrationTests.csproj" />
+  <Project Path="tests/SanuCeylon.Application.UnitTests/SanuCeylon.Application.UnitTests.csproj" />
+  <Project Path="tests/SanuCeylon.Domain.UnitTests/SanuCeylon.Domain.UnitTests.csproj" />
+  <Project Path="tests/SanuCeylon.Infrastructure.IntegrationTests/SanuCeylon.Infrastructure.IntegrationTests.csproj" />
+</Solution>

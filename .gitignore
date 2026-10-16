@@ -1,0 +1,31 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Visual Studio and IDE state
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET build output
+**/bin/
+**/obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+artifacts/
+
+# Test and coverage output
+TestResults/
+coverage/
+coverage.*
+
+# Local publish output
+publish/

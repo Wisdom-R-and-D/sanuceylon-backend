@@ -40,6 +40,7 @@ jobs:
         with:
           name: .net-app
           path: ${{ env.DOTNET_ROOT }}/myapp
+          retention-days: 7
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,9 +58,9 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: .net-app
-      
+
       - name: Login to Azure
-        uses: azure/login@v3
+        uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_C80CD0AC380242FC9553C60B0002DE38 }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_FFB011C4372648F8BCC7391B62226E90 }}
